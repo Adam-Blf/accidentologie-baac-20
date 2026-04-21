@@ -1,5 +1,13 @@
 # Accidentologie BAAC · Analyse Open Data 2020
 
+![Status](https://img.shields.io/badge/status-academic-blue)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
+![Open Data](https://img.shields.io/badge/Open_Data-data.gouv.fr-000091)
+![EFREI M1](https://img.shields.io/badge/EFREI-M1_Data_Eng-000091)
+![MIT](https://img.shields.io/badge/license-MIT-blue)
+
 Analyse de l'accidentologie routiere en France a partir du fichier BAAC 2020 (Bulletin d'Analyse des Accidents Corporels de la Circulation) publie par le Ministere de l'Interieur. Projet academique note 20/20.
 
 ## Contexte
