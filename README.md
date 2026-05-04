@@ -1,5 +1,10 @@
 # Accidentologie BAAC · Analyse Open Data 2020
 
+<!-- adam-badges:start -->
+[![commits](https://img.shields.io/github/commit-activity/t/Adam-Blf/accidentologie-baac-20?color=001329&label=commits&style=flat-square)](https://github.com/Adam-Blf/accidentologie-baac-20/commits) [![visites](https://hits.sh/github.com/Adam-Blf/accidentologie-baac-20.svg?style=flat-square&label=visites&color=001329)](https://hits.sh/github.com/Adam-Blf/accidentologie-baac-20/) [![last commit](https://img.shields.io/github/last-commit/Adam-Blf/accidentologie-baac-20?color=D4A437&style=flat-square&label=dernier%20push)](https://github.com/Adam-Blf/accidentologie-baac-20/commits) [![top language](https://img.shields.io/github/languages/top/Adam-Blf/accidentologie-baac-20?style=flat-square)](https://github.com/Adam-Blf/accidentologie-baac-20) [![license](https://img.shields.io/github/license/Adam-Blf/accidentologie-baac-20?style=flat-square&color=D4A437)](LICENSE)
+<!-- adam-badges:end -->
+
+
 ![Status](https://img.shields.io/badge/status-academic-blue)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
