@@ -15,6 +15,23 @@
 
 Analyse de l'accidentologie routiere en France a partir du fichier BAAC 2020 (Bulletin d'Analyse des Accidents Corporels de la Circulation) publie par le Ministere de l'Interieur. Projet academique note 20/20.
 
+## Architecture
+
+```mermaid
+flowchart TB
+    SRC["BAAC 2020 · data.gouv.fr<br/>caractéristiques · lieux · véhicules · usagers"]
+    JOIN["Jointures sur Num_Acc<br/>dataset consolidé"]
+    CLEAN["Nettoyage<br/>typage · codes spéciaux · décodage"]
+    FE["Feature engineering<br/>découpage horaire · gravité"]
+    EDA["EDA · Jupyter<br/>pandas · numpy"]
+    VIZ["Visualisations<br/>matplotlib · seaborn · choropleth"]
+    SRC --> JOIN
+    JOIN --> CLEAN
+    CLEAN --> FE
+    FE --> EDA
+    EDA --> VIZ
+```
+
 ## Contexte
 
 Projet academique EFREI · Mastere Data Engineering & IA · Master 1. Livrable data analysis avec EDA, dataviz et enseignements metier sur l'insecurite routiere francaise.
