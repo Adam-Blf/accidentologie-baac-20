@@ -31,6 +31,19 @@ flowchart TB
     CLEAN --> FE
     FE --> EDA
     EDA --> VIZ
+
+    classDef c0 fill:#2563eb,stroke:#1e3a8a,stroke-width:2px,color:#ffffff
+    classDef c1 fill:#7c3aed,stroke:#4c1d95,stroke-width:2px,color:#ffffff
+    classDef c2 fill:#0891b2,stroke:#164e63,stroke-width:2px,color:#ffffff
+    classDef c3 fill:#16a34a,stroke:#14532d,stroke-width:2px,color:#ffffff
+    classDef c4 fill:#d97706,stroke:#78350f,stroke-width:2px,color:#ffffff
+    classDef c5 fill:#db2777,stroke:#831843,stroke-width:2px,color:#ffffff
+    class SRC c0
+    class JOIN c1
+    class CLEAN c2
+    class FE c3
+    class EDA c4
+    class VIZ c5
 ```
 
 ## Contexte
