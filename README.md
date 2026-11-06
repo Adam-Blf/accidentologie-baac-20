@@ -1,8 +1,7 @@
 # Accidentologie BAAC - Analyse Open Data 2020
 
-[![version](https://img.shields.io/badge/version-0.1.0-000091?style=flat-square)](https://github.com/Adam-Blf/accidentologie-baac-20/releases)
-
 <!-- adam-badges:start -->
+[![version](https://img.shields.io/badge/version-0.1.0-163767?style=flat-square)](CHANGELOG.md)
 [![commits](https://img.shields.io/github/commit-activity/t/Adam-Blf/accidentologie-baac-20?color=001329&label=commits&style=flat-square)](https://github.com/Adam-Blf/accidentologie-baac-20/commits) [![visites](https://hits.sh/github.com/Adam-Blf/accidentologie-baac-20.svg?style=flat-square&label=visites&color=001329)](https://hits.sh/github.com/Adam-Blf/accidentologie-baac-20/) [![last commit](https://img.shields.io/github/last-commit/Adam-Blf/accidentologie-baac-20?color=D4A437&style=flat-square&label=dernier%20push)](https://github.com/Adam-Blf/accidentologie-baac-20/commits) [![top language](https://img.shields.io/github/languages/top/Adam-Blf/accidentologie-baac-20?style=flat-square)](https://github.com/Adam-Blf/accidentologie-baac-20) [![license](https://img.shields.io/github/license/Adam-Blf/accidentologie-baac-20?style=flat-square&color=D4A437)](LICENSE)
 <!-- adam-badges:end -->
 
@@ -32,18 +31,14 @@ flowchart TB
     FE --> EDA
     EDA --> VIZ
 
-    classDef c0 fill:#2563eb,stroke:#1e3a8a,stroke-width:2px,color:#ffffff
-    classDef c1 fill:#7c3aed,stroke:#4c1d95,stroke-width:2px,color:#ffffff
-    classDef c2 fill:#0891b2,stroke:#164e63,stroke-width:2px,color:#ffffff
-    classDef c3 fill:#16a34a,stroke:#14532d,stroke-width:2px,color:#ffffff
-    classDef c4 fill:#d97706,stroke:#78350f,stroke-width:2px,color:#ffffff
-    classDef c5 fill:#db2777,stroke:#831843,stroke-width:2px,color:#ffffff
-    class SRC c0
-    class JOIN c1
-    class CLEAN c2
-    class FE c3
-    class EDA c4
-    class VIZ c5
+    classDef input fill:#2563eb,stroke:#1e3a8a,color:#fff
+    classDef process fill:#7c3aed,stroke:#4c1d95,color:#fff
+    classDef store fill:#f59e0b,stroke:#92400e,color:#111
+    classDef ok fill:#16a34a,stroke:#14532d,color:#fff
+    classDef error fill:#dc2626,stroke:#7f1d1d,color:#fff
+    class SRC input
+    class JOIN,CLEAN,FE,EDA process
+    class VIZ ok
 ```
 
 ## Contexte
@@ -95,7 +90,3 @@ MIT
 <p align="center">
   <sub>Par <a href="https://adam.beloucif.com">Adam Beloucif</a> - Data Engineer & Fullstack Developer - <a href="https://github.com/Adam-Blf">GitHub</a> - <a href="https://www.linkedin.com/in/adambeloucif/">LinkedIn</a></sub>
 </p>
-
- <picture>
- </picture>
-</a>
